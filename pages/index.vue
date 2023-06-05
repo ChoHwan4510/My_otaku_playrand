@@ -1,0 +1,13 @@
+<template>
+    <div>
+        Hello Wellcome Nuxt World
+    </div>
+</template>
+
+<script setup lang="ts">
+
+</script>
+
+<style scoped>
+
+</style>
