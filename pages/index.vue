@@ -17,9 +17,13 @@
 
     <Transition name="fade">
         <ModalDefault v-if="showModal" @closeModal="closeModal">
-            <template #header>Header</template>
+            <template #header>
+                <div>
+                    <div>Nuxt js Study</div>
+                </div>
+                <div>X</div>
+            </template>
             <template #body>body</template>
-            <template #footer>footer</template>
         </ModalDefault>
     </Transition>
 </template>
@@ -32,5 +36,6 @@
     }
     const closeModal = () => {
         showModal.value = false;
+        
     }
 </script>

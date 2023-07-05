@@ -1,5 +1,6 @@
 <template>
-    <section class="default-modal-container" @click="closeModal">
+    <section class="default-modal-container">
+        <div class="default-modal-background" @click="closeModal"></div>
         <div class="default-modal-wrapper">
             <div class="modal-header">
                 <slot name="header" />
