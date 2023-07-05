@@ -1,1 +1,10 @@
-@import "./reset.scss"
+@import "./reset.scss";
+
+/* 인덱스 화면 관련*/
+@import "./index.scss";
+
+/* 모달창 */
+@import "./modal/default.scss";
+
+/*변환 효과*/
+@import "./transition.scss";
