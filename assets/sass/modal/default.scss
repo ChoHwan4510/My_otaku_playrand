@@ -18,9 +18,27 @@
     justify-content: center;
     .default-modal-wrapper{
         max-width: 800px;
-        padding: 1.875rem;
+        width: 500px;
         background-color: #fff;
         z-index: 20;
-        
+        .modal-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25rem;
+            background-color: #ade1ff;
+            border-bottom: 2px solid #e3e3e3;
+            .modal-title-name{
+                font-size: 1.5625rem;
+                .itmes{
+                    background-color: #fff;
+                    border-radius: 15px;
+                    
+                }
+            }
+        }
+        .close-btn{
+            cursor: pointer;
+        }
     }
 }
