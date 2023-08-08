@@ -50,9 +50,8 @@
             <template #body>
                 <div class="modal-items-box">
                     <div class="items">
-                        <NuxtLink to="/pinia/pratice">Pinia 관련</NuxtLink>
+                        <NuxtLink to="/project/ani_word_quiz">애니메이션 퀴즈</NuxtLink>
                     </div>
-                    <div class="items">Vue 3</div>
                 </div>
             </template>
         </ModalDefault>   
@@ -64,9 +63,10 @@
     const showProejctModal = ref(false);
 
     const openModal = (type) => {
+        console.log(type);
         switch(type){
-            case 1 : showModal.value = true;
-            case 2 : showProejctModal.value =true;
+            case 1 : showModal.value = true;break;
+            case 2 : showProejctModal.value =true;break;
         }
         
     }
