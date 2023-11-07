@@ -41,7 +41,6 @@
     const run = () => {
         isGame.value = true;
         time.value = gameTime;
-        
     }
 
 </script>
