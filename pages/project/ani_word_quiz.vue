@@ -66,7 +66,7 @@
             {question : "ㅅㅌㄹㅇㅋ ㄷ ㅂㄹㄷ", answer : "스트라이크 더 블러드"},
             {question : "ㄴㄱㅇ ㄴㄹㅇㅍ", answer : "노게임 노라이프"},
             {question : "ㅇㄱㅂㄷ", answer : "야근병동"},
-            {question : "ㅇㅍㄱ ㅅㅇㅎㅁㄹ ㅂㅇㄹㅇ ㅇㅇㅎㄴㄷ", answer : "니세코이"},
+            {question : "ㄴㅅㅋㅇ", answer : "니세코이"},
             {question : "ㅋㄹㅋ", answer : "킬라킬"},
         ]
     ); //자음퀴즈 정렬
@@ -97,7 +97,7 @@
 
     //퀴즈생성
     const makeQuize = () => {
-        while(true) {
+        for(let i=0; i<5; i++) {
             aniIndex = Math.floor(Math.random() * quizArray.value.length);
             if(quizArray.value[aniIndex].isCheck == false)  break;
         }
