@@ -2,6 +2,7 @@ import { defineNuxtConfig } from "nuxt/config";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     modules: ["@pinia/nuxt","@nuxtjs/i18n"],
+    css: ['@fortawesome/fontawesome-svg-core/styles.css'],
     vite: {
       // @ts-ignore
       ssr: { noExternal: ["moment"] },

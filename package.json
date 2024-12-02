@@ -7,7 +7,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "start" : "pm2 start ecosystem.config.js --only chinokawai"
+    "start": "pm2 start ecosystem.config.js --only chinokawai"
   },
   "devDependencies": {
     "@types/node": "^18.16.16",
@@ -17,13 +17,16 @@
   },
   "dependencies": {
     "@flaticon/flaticon-uicons": "^2.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
     "@nuxtjs/i18n": "^8.0.0-beta.12",
     "@pinia/nuxt": "^0.4.11",
     "@types/ramda": "^0.29.2",
     "@vueup/vue-quill": "^1.2.0",
     "axios": "^1.4.0",
     "pinia": "^2.1.3",
-    "sass": "^1.62.1"
+    "sass": "^1.62.1",
+    "yarn": "^1.22.22"
   },
   "overrides": {
     "vue": "latest"
